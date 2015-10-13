@@ -1,0 +1,14 @@
+INFO  [main] fantasygame.arena.Battle: fight begin: Volg & Tee
+INFO  [main] fantasygame.arena.Battle: secondWarrior win in the battle: Tee
+INFO  [main] fantasygame.arena.Battle: fight begin: Amadeus & Rion
+INFO  [main] fantasygame.arena.Battle: secondWarrior win in the battle: Rion
+INFO  [main] fantasygame.arena.Battle: fight begin: Woorth & John Backsword
+INFO  [main] fantasygame.arena.Battle: FirstWarrior win in the battle: Woorth
+INFO  [main] fantasygame.arena.Battle: fight begin: Tirgolf & Eelisee Si 
+INFO  [main] fantasygame.arena.Battle: secondWarrior win in the battle: Eelisee Si 
+INFO  [main] fantasygame.arena.Battle: fight begin: Tee & Rion
+INFO  [main] fantasygame.arena.Battle: FirstWarrior win in the battle: Tee
+INFO  [main] fantasygame.arena.Battle: fight begin: Woorth & Eelisee Si 
+INFO  [main] fantasygame.arena.Battle: FirstWarrior win in the battle: Woorth
+INFO  [main] fantasygame.arena.Battle: fight begin: Tee & Woorth
+INFO  [main] fantasygame.arena.Battle: No winners. Return null
