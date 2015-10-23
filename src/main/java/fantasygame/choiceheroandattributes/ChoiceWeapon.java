@@ -12,31 +12,49 @@ public class ChoiceWeapon implements RandomChoice {
 
     public Weapon getWeapon(int number) throws GetWeaponException {
 
-        LOG.debug("Trying to get weapon.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Trying to get weapon.");
+        }
 
         if (number == 0) {
-            LOG.debug("Get Saber.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return Saber.");
+            }
             return new Saber(33, 150);
         } else if (number == 1) {
-            LOG.debug("Get Sword.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return Sword.");
+            }
             return new Sword(28, 155);
         } else if (number == 2) {
-            LOG.debug("Get Axe.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return Axe.");
+            }
             return new Axe(22, 170);
         } else if (number == 3) {
-            LOG.debug("Get MagicStick.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return MagicStick.");
+            }
             return new MagicStick(40, 140);
         } else if (number == 4) {
-            LOG.debug("Get Cudgel.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return Cudgel.");
+            }
             return new Cudgel(40, 155);
         } else if (number == 5) {
-            LOG.debug("Get OrcSword.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return OrcSword.");
+            }
             return new OrcSword(25, 155);
         } else if (number == 6) {
-            LOG.debug("Get Spear.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return Spear.");
+            }
             return new Spear(37, 149);
         } else if (number == 7) {
-            LOG.debug("Get MorningStar.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Return MorningStar.");
+            }
             return new Morningstar(44, 150);
         }
         LOG.warn("Throw GetWeaponException: \"Can`t get weapon\"");

@@ -10,12 +10,16 @@ public class PowerfulStrike implements Skill {
     private final int powerfulStrike = 250;
 
     public void printAction() {
-        LOG.debug("Print skill action");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Print skill action");
+        }
         System.out.println("**Troll pack opponent!**");
     }
 
     public int getDamage() {
-        LOG.debug("Return int SKILL.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Return int SKILL.");
+        }
         return powerfulStrike;
     }
 

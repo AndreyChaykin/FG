@@ -43,17 +43,24 @@ public abstract class Warrior {
     }
 
     public int getActualLife() {
-        LOG.debug("Get actual hero life " + actualLife);
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Get hero " + getClass()+ " " + getName() + " actual life: " + actualLife);
+        }
         return actualLife;
     }
 
     public void setActualLife(int actualLife) {
-        LOG.debug("Set actual hero life: was - " + this.actualLife + ", new actual life - " + actualLife);
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Set " + getClass() + " " + getName() + " actual life: was - "
+                    + this.actualLife + ", new actual life - " + actualLife);
+        }
         this.actualLife = actualLife;
     }
 
     public int getFullLife() {
-        LOG.debug("Get full life " + fullLife);
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass() + " " + getName() + " get full life " + fullLife);
+        }
         return fullLife;
     }
 
@@ -94,31 +101,44 @@ public abstract class Warrior {
 
 
     public int kick(Warrior warrior) {
-        LOG.debug("Trying to kick opponent.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(this.getClass() + " " + this.getName() +  " is trying to kick " +
+                    warrior.getClass() + " " + warrior.getName());
+        }
         int number = random.nextInt(5);
         if (number == 3) {
-            LOG.debug("Use superSkill.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug(this.getClass() + " " + this.getName() + " used superSkill.");
+            }
             return superSkill(warrior);
         } else {
-            LOG.debug("Use standardKick.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug(this.getClass() + " " + this.getName() + " used standardKick.");
+            }
             return standardKick(warrior);
         }
     }
 
+    //todo with this or just getClass
+
     public abstract int superSkill(Warrior opponent);
 
     public int standardKick(Warrior opponent) {
-        LOG.debug("Trying to make standardKick.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(this.getClass() + " " + this.getName() + " is trying to do standardKick.");
+        }
         int lifeOpponent = opponent.getActualLife();
         //TODO check if it correct damage
         int damage = (random.nextInt(hit + weapon.getDamage())) - (random.nextInt(armour.getProtection()));
         if (damage >= 0) {
             System.out.println(getClass().getSimpleName() + " hit " + damage + " damage.");
-            LOG.debug("Hit " + opponent + " for " + damage + " damage.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug(getClass() + " " + getName() + " hit " + opponent + " for " + damage + " damage.");
+            }
             lifeOpponent -= damage;
         } else {
-            System.out.println(getClass().getSimpleName() + " hit " + 0 + " damage.");
-            LOG.debug("Hit " + opponent + " for " + 0 + " damage.");
+            System.out.println(getClass().getSimpleName() + "is miss.");
+            LOG.debug(getClass() + " " + getName() + "is miss.");
         }
         return lifeOpponent;
     }

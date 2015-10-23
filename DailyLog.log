@@ -1,0 +1,18 @@
+2015-10-22 16:28:19,875 INFO  main fantasygame.arena.Battle       -Fight begin: Dwarf Tirgolf & Chimera Woorth.
+2015-10-22 16:28:19,906 INFO  main fantasygame.arena.Battle       -Warrior Dwarf Tirgolf win in this battle. Return winner.
+2015-10-22 16:28:19,906 INFO  main fantasygame.arena.Battle       -Fight begin: Troll Tee & Orc Volg.
+2015-10-22 16:28:19,921 INFO  main fantasygame.arena.Battle       -Warrior Troll Tee win in this battle. Return winner.
+2015-10-22 16:28:19,937 INFO  main fantasygame.arena.Battle       -Fight begin: Knight John Backsword & Centaur Amadeus.
+2015-10-22 16:28:19,953 INFO  main fantasygame.arena.Battle       -Warrior Centaur Amadeus win in this battle. Return winner.
+2015-10-22 16:28:19,953 INFO  main fantasygame.arena.Battle       -Fight begin: Magician Rion & Elf Eelisee Si .
+2015-10-22 16:28:19,968 INFO  main fantasygame.arena.Battle       -Warrior Magician Rion win in this battle. Return winner.
+2015-10-22 16:28:19,984 INFO  main fantasygame.arena.RecoveryRoom -Trying to recover heroes life
+2015-10-22 16:28:20,828 INFO  main fantasygame.arena.RecoveryRoom -Answer was NO. Life is not recovered.
+2015-10-22 16:28:20,828 INFO  main fantasygame.arena.Battle       -Fight begin: Dwarf Tirgolf & Troll Tee.
+2015-10-22 16:28:20,828 INFO  main fantasygame.arena.Battle       -Warrior Troll Tee win in this battle. Return winner.
+2015-10-22 16:28:20,828 INFO  main fantasygame.arena.Battle       -Fight begin: Centaur Amadeus & Magician Rion.
+2015-10-22 16:28:20,828 INFO  main fantasygame.arena.Battle       -Warrior Magician Rion win in this battle. Return winner.
+2015-10-22 16:28:20,843 INFO  main fantasygame.arena.RecoveryRoom -Trying to recover heroes life
+2015-10-22 16:28:21,406 INFO  main fantasygame.arena.RecoveryRoom -Answer was NO. Life is not recovered.
+2015-10-22 16:28:21,406 INFO  main fantasygame.arena.Battle       -Fight begin: Troll Tee & Magician Rion.
+2015-10-22 16:28:21,406 INFO  main fantasygame.arena.Battle       -No winner in this battle. Return null

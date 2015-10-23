@@ -8,12 +8,16 @@ public class Varg implements Skill {
     private static final Logger LOG = Logger.getLogger(getCurrentClassName());
 
     public void printAction() {
-        LOG.debug("Print skill action");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Print skill action");
+        }
         System.out.println("**Varg dirtily punish from the blindside of the opponent!**");
     }
 
     public int getDamage() {
-        LOG.debug("Return int SKILL.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Return int SKILL.");
+        }
         return SKILL;
     }
 

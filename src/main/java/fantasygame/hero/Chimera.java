@@ -17,26 +17,35 @@ public class Chimera extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("Thank you for given me chance to kill pshshshshsh");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println("Giffff me somebody more!");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + "is using superskills.");
+        }
         System.out.println("- Now you wil die!Feel the power of darkness!");
-        Darkness darkenes = new Darkness();
-        darkenes.printAction();
-        LOG.debug("Change actual life of opponent.");
-        int lifepoint = opponent.getActualLife() - darkenes.getDamage();
-        System.out.println("Chimera hit " + darkenes.getDamage() + " damage!");
-        return lifepoint;
+        Darkness darkeness = new Darkness();
+        darkeness.printAction();
+        int lifepoints = opponent.getActualLife() - darkeness.getDamage();
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Change actual life of opponent: " + opponent.getActualLife()
+                    + " - " + darkeness.getDamage() + " = " + lifepoints);
+        }
+        System.out.println("Chimera hit " + darkeness.getDamage() + " damage!");
+        return lifepoints;
     }
 
 

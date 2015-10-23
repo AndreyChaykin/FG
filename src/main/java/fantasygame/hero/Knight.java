@@ -17,25 +17,34 @@ public class Knight extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("\n- Lord, knight-errant  " + getName()+ " readiness to die for you!");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println(this.getClass().getSimpleName() + SPEECH + "Lord!");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is using superskills.");
+        }
         System.out.println("- Gran Master and Maltese Order will pray for my victory!");
         MalteseOrden malteseOrden = new MalteseOrden();
         malteseOrden.printAction();
-        LOG.debug("Change actual life of opponent.");
         int lifepoints = opponent.getActualLife() - malteseOrden.getDamage();
         System.out.println("Knight fantasygame.skill hit " + malteseOrden.getDamage() + " damage.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Change actual life of opponent: " + opponent.getActualLife()
+                    + " - " + malteseOrden.getDamage() + " = " + lifepoints);
+        }
         return lifepoints;
     }
 }

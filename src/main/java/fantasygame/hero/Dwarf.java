@@ -17,25 +17,34 @@ public class Dwarf extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("\n- Master, dwarf " + getName() + " will bring you Glory!");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println("- " + getName() + SPEECH + "master");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is using superskills.");
+        }
         MountainSkill mountainSkill = new MountainSkill();
         System.out.println("- Mountain power!");
         mountainSkill.printAction();
-        LOG.debug("Change actual life of opponent.");
         System.out.println("Dwarf fantasygame.skill hit " + mountainSkill.getDamage() + " damage.");
-        int lifeOpponent = opponent.getActualLife() - mountainSkill.getDamage();
-        return lifeOpponent;
+        int lifepoints = opponent.getActualLife() - mountainSkill.getDamage();
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Change actual life of opponent: " + opponent.getActualLife()
+                    + " - " + mountainSkill.getDamage() + " = " + lifepoints);
+        }
+        return lifepoints;
     }
 }

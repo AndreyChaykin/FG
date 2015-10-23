@@ -17,24 +17,33 @@ public class Centaur extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("The stars promise me luck!");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println("Viva overlord Dionysus! " + Centaur.this.getName().toLowerCase() + SPEECH + "lord!");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is using superskills.");
+        }
         System.out.println("- Dionysus, help me!");
         DionysusMadness madness = new DionysusMadness();
         madness.printAction();
-        LOG.debug("Change actual life of opponent.");
         int lifepoints = opponent.getActualLife() - madness.getDamage();
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Change actual life of opponent: " + opponent.getActualLife()
+                    + " - " + madness.getDamage() + " = " + lifepoints);
+        }
         System.out.println("Dionysus hit " + madness.getDamage() + " damage!");
         return lifepoints;
     }

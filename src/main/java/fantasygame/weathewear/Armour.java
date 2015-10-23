@@ -14,12 +14,16 @@ public abstract class Armour {
     }
 
     public int getProtection() {
-        LOG.debug("Get armour protection.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Get armour protection " + protection);
+        }
         return protection;
     }
 
     public void setProtection(int protection) {
-        LOG.debug("Set armour protection.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Set armour protection " + protection);
+        }
         this.protection = protection;
     }
 

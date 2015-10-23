@@ -18,7 +18,9 @@ public class WriteInFile {
     private Calendar calendar = new GregorianCalendar();
 
     public void printDateBeginningBattle() {
-        LOG.debug("Trying to write date of the beginning battle in the file.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Trying to write date of the beginning battle in the file.");
+        }
         try {
             bf = new BufferedWriter(new FileWriter("WriteInTextFile.txt", true));
             bf.newLine();
@@ -26,42 +28,52 @@ public class WriteInFile {
             bf.write("The new battle begin on: ");
             bf.write(dateFormat.format(calendar.getTime()));
             bf.flush();
-            LOG.debug("Recording is completed.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Recording complete.");
+            }
         } catch (IOException e) {
             e.printStackTrace();
-            LOG.warn("IOException " + e.getMessage());
+            LOG.error("IOException " + e);
         } finally {
             try {
                 if (bf != null) {
                     bf.close();
-                    LOG.debug("The thread is closed.");
+                    if(LOG.isDebugEnabled()) {
+                        LOG.debug("The thread is closed.");
+                    }
                 }
             } catch (IOException e) {
-                LOG.warn("Can`t close thread.");
+                LOG.error("Can`t close thread.");
             }
         }
     }
 
     public void writeWhichHeroUserChose(Warrior hero) {
-        LOG.debug("Trying to write into the file which hero user chose.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Trying to write into the file which hero user chose.");
+        }
         try {
             bf = new BufferedWriter(new FileWriter("WriteInTextFile.txt", true));
             bf.newLine();
             bf.write("User chose: ");
             bf.write(hero.toString());
             bf.flush();
-            LOG.debug("Recording is completed.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Recording complete.");
+            }
         } catch (IOException e) {
             e.printStackTrace();
-            LOG.warn("IOException " + e.getMessage());
+            LOG.error("IOException " + e);
         } finally {
             try {
                 if (bf != null) {
                     bf.close();
-                    LOG.debug("The thread is closed.");
+                    if(LOG.isDebugEnabled()) {
+                        LOG.debug("The thread is closed.");
+                    }
                 }
             } catch (IOException e) {
-             LOG.warn("Can`t close thread.");
+             LOG.error("Can`t close thread, ", e);
             }
         }
     }

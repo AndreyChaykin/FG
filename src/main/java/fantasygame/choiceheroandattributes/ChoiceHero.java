@@ -20,30 +20,39 @@ public class ChoiceHero implements RandomChoice {
     private static boolean chimeraExist = true;
     private static final Logger LOG = Logger.getLogger(ChoiceHero.class);
 
-    //todo scanner close    --  its probably to close here scanner
+    //todo scanner close    --  its difficult to close here scanner
     public int enterNumber() throws EnterNumberException {
         Boolean isDigit1 = true;
         int result;
-        LOG.debug("Trying to get entered number from user.");
+        if (LOG.isDebugEnabled()) {
+            LOG.debug("Trying to get entered number from user.");
+        }
         while (isDigit1) {
             try {
                 result = new Scanner(System.in).nextInt();
                 isDigit1 = false;
-                LOG.debug("Return entered number.");
+                if (LOG.isDebugEnabled()) {
+                    LOG.debug("Return entered number " + result);
+                }
                 return result;
             } catch (InputMismatchException e) {
+                LOG.error("User type incorrect value, ", e);
                 System.out.println("Please, enter correct value!");
                 new ChiefJustice().askingForMakeChoice();
-                LOG.debug("Asking user for re-enter number");
+                if (LOG.isDebugEnabled()) {
+                    LOG.debug("Asking user for re-enter number");
+                }
             }
         }
-        LOG.warn("Throw EnterNumberException: \"Exception in enterNumber method\"");
+        LOG.error("Throw EnterNumberException: \"Exception in enterNumber method\"");
         throw new EnterNumberException("Exception in enterNumber method");
     }
 
     public Warrior getHero(int number) throws AbsentHeroException {
         Boolean heroExist = true;
-        LOG.debug("Trying to get hero.");
+        if (LOG.isDebugEnabled()) {
+            LOG.debug("Trying to get hero by number " + number);
+        }
 
         while (heroExist) {
             heroExist = false;
@@ -51,58 +60,82 @@ public class ChoiceHero implements RandomChoice {
             ChoiceWeapon weapon = new ChoiceWeapon();
             try {
                 if (number == 1 && dwarfExist) {
-                    LOG.debug("Get Dwarf");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Dwarf");
+                    }
                     dwarfExist = false;
                     return new Dwarf("Tirgolf", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 2 && elfExist) {
-                    LOG.debug("Get Elf");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Elf");
+                    }
                     elfExist = false;
                     return new Elf("Eelisee Si ", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 3 && knightExist) {
-                    LOG.debug("Get Knight");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Knight");
+                    }
                     knightExist = false;
                     return new Knight("John Backsword", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 4 && magicianExist) {
-                    LOG.debug("Get Magician");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Magician");
+                    }
                     magicianExist = false;
                     return new Magician("Rion", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 5 && orcExist) {
-                    LOG.debug("Get Orc");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Orc");
+                    }
                     orcExist = false;
                     return new Orc("Volg", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 6 && trollExist) {
-                    LOG.debug("Get Troll");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Troll");
+                    }
                     trollExist = false;
                     return new Troll("Tee", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 7 && centaurExist) {
-                    LOG.debug("Get Centaur");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Centaur");
+                    }
                     centaurExist = false;
                     return new Centaur("Amadeus", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 8 && chimeraExist) {
-                    LOG.debug("Get Chimera");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Chimera");
+                    }
                     chimeraExist = false;
                     return new Chimera("Woorth", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else {
                     heroExist = true;
                     if (number > 8) {
-                        System.out.println("Please, enter correct number");
-                        LOG.debug("Asking for enter correct number");
+                        System.out.println("Please, enter correct number.");
+                        if (LOG.isDebugEnabled()) {
+                            LOG.debug("Number > 8, asking for enter correct number.");
+                        }
                     } else {
                         System.out.println("Such hero already exist. Please, choose another warrior.");
-                        LOG.debug("Asking for choose another warrior");
+                        if (LOG.isDebugEnabled()) {
+                            LOG.debug("Such hero already exist. Asking for choose another warrior.");
+                        }
                     }
                     new ChiefJustice().askingForMakeChoice();
                     try {
-                        LOG.debug("Getting new number for choice hero.");
+                        if (LOG.isDebugEnabled()) {
+                            LOG.debug("Getting new number from user.");
+                        }
                         number = enterNumber();
                     } catch (EnterNumberException e) {
+                        LOG.error("EnterNumberHeroException, ", e);
                         e.printStackTrace();
                     }
                 }
             } catch (ChoiceArmorException e) {
-                //todo in exceptions also must be logs? (in catch resources)
+                LOG.error("ChoiceArmourException, ", e);
                 e.printStackTrace();
             } catch (GetWeaponException e) {
+                LOG.error("GetWeaponException, ", e);
                 e.printStackTrace();
             }
         }
@@ -112,7 +145,9 @@ public class ChoiceHero implements RandomChoice {
 
     public Warrior getRandomHero(int number) throws AbsentHeroException {
         Boolean heroExist = true;
-        LOG.debug("Trying to get random hero.");
+        if (LOG.isDebugEnabled()) {
+            LOG.debug("Trying to get random hero by number " + number);
+        }
 
         while (heroExist) {
             heroExist = false;
@@ -120,45 +155,65 @@ public class ChoiceHero implements RandomChoice {
             ChoiceWeapon weapon = new ChoiceWeapon();
             try {
                 if (number == 1 && dwarfExist) {
-                    LOG.debug("Get Dwarf");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Dwarf");
+                    }
                     dwarfExist = false;
                     return new Dwarf("Tirgolf", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 2 && elfExist) {
-                    LOG.debug("Get Elf");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Elf");
+                    }
                     elfExist = false;
                     return new Elf("Eelisee Si ", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 3 && knightExist) {
-                    LOG.debug("Get Knight");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Knight");
+                    }
                     knightExist = false;
                     return new Knight("John Backsword", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 4 && magicianExist) {
-                    LOG.debug("Get Magician");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Magician");
+                    }
                     magicianExist = false;
                     return new Magician("Rion", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 5 && orcExist) {
-                    LOG.debug("Get Orc");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Orc");
+                    }
                     orcExist = false;
                     return new Orc("Volg", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 6 && trollExist) {
-                    LOG.debug("Get Troll");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Troll");
+                    }
                     trollExist = false;
                     return new Troll("Tee", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 7 && centaurExist) {
-                    LOG.debug("Get Centaur");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Centaur");
+                    }
                     centaurExist = false;
                     return new Centaur("Amadeus", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else if (number == 8 && chimeraExist) {
-                    LOG.debug("Get Chimera");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Return Chimera");
+                    }
                     chimeraExist = false;
                     return new Chimera("Woorth", 1000, 22, weapon.getWeapon(weapon.getRandomChoice()), armor.getArmor(armor.getRandomChoice()));
                 } else {  //todo cant remove circle
                     heroExist = true;
                     number = getRandomChoice();
-                    LOG.debug("Getting new random number.");
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Getting new random number.");
+                    }
                 }
             } catch (ChoiceArmorException e) {
+                LOG.error("ChoiceArmourException, ", e);
                 e.printStackTrace();
             } catch (GetWeaponException e) {
+                LOG.error("GetWeaponException, ", e);
                 e.printStackTrace();
             }
         }
@@ -167,7 +222,9 @@ public class ChoiceHero implements RandomChoice {
     }
 
     public int getRandomChoice() {
-        LOG.debug("Getting random number.");
+        if (LOG.isDebugEnabled()) {
+            LOG.debug("Getting random number.");
+        }
         return new Random().nextInt(9);
     }
 }

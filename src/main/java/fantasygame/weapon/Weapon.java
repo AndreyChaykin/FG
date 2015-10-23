@@ -19,12 +19,16 @@ public abstract class Weapon {
  }
 
     public int getDamage(){
-        LOG.debug("Get weapon damage.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Get weapon damage " + damage);
+        }
         return damage;
     }
 
     public int getCondition() {
-        LOG.debug("Get weapon condition.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Get weapon condition " + condition);
+        }
         return condition;
     }
 

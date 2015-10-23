@@ -1,529 +1,1005 @@
 
 
-The new battle begin on: 11.10.15 12:28
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. centaur Amadeus
-2. magician Rion
-3. orc Volg
-4. elf Eelisee Si 
-5. troll Tee
-6. chimera Woorth
-7. knight John Backsword
-
-Heroes in the round:
-0. centaur Amadeus
-1. magician Rion
-2. elf Eelisee Si 
-3. chimera Woorth
-
-
-The new battle begin on: 11.10.15 12:53
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. knight John Backsword
-2. chimera Woorth
-3. elf Eelisee Si 
-4. troll Tee
-5. centaur Amadeus
-6. magician Rion
-7. orc Volg
-
-Heroes in the round:
-0. knight John Backsword
-1. elf Eelisee Si 
-2. centaur Amadeus
-3. magician Rion
-
-
-The new battle begin on: 11.10.15 14:53
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. centaur Amadeus
-2. elf Eelisee Si 
-3. troll Tee
-4. magician Rion
-5. chimera Woorth
-6. knight John Backsword
-7. orc Volg
-
-Heroes in the round:
-0. centaur Amadeus
-1. elf Eelisee Si 
-2. magician Rion
-3. knight John Backsword
-
-
-The new battle begin on: 11.10.15 22:18
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. troll Tee
-2. elf Eelisee Si 
-3. chimera Woorth
-4. magician Rion
-5. centaur Amadeus
-6. knight John Backsword
-7. orc Volg
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. elf Eelisee Si 
-2. magician Rion
-3. orc Volg
-
-
-The new battle begin on: 11.10.15 22:19
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. magician Rion
-2. troll Tee
-3. elf Eelisee Si 
-4. knight John Backsword
-5. orc Volg
-6. centaur Amadeus
-7. chimera Woorth
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. elf Eelisee Si 
-2. knight John Backsword
-3. chimera Woorth
-
-
-The new battle begin on: 11.10.15 22:21
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. elf Eelisee Si 
-2. orc Volg
-3. chimera Woorth
-4. magician Rion
-5. knight John Backsword
-6. centaur Amadeus
-7. troll Tee
-
-Heroes in the round:
-0. elf Eelisee Si 
-1. chimera Woorth
-2. magician Rion
-3. centaur Amadeus
-
-
-The new battle begin on: 11.10.15 22:22
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. centaur Amadeus
-2. knight John Backsword
-3. orc Volg
-4. chimera Woorth
-5. troll Tee
-6. elf Eelisee Si 
-7. magician Rion
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. orc Volg
-2. chimera Woorth
-3. magician Rion
-
-
-The new battle begin on: 11.10.15 23:45
-User chose: orc Volg
-Heroes in the round:
-0. orc Volg
-1. elf Eelisee Si 
-2. troll Tee
-3. knight John Backsword
-4. centaur Amadeus
-5. chimera Woorth
-6. magician Rion
-7. dwarf Tirgolf
-
-Heroes in the round:
-0. orc Volg
-1. knight John Backsword
-2. chimera Woorth
-3. dwarf Tirgolf
-
-Heroes in the round:
-0. knight John Backsword
-1. chimera Woorth
-
-The champion is : John Backsword
-
-The new battle begin on: 12.10.15 11:56
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. centaur Amadeus
-2. orc Volg
-3. elf Eelisee Si 
-4. magician Rion
-5. chimera Woorth
-6. knight John Backsword
-7. troll Tee
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. elf Eelisee Si 
-2. chimera Woorth
-3. knight John Backsword
-
-
-The new battle begin on: 12.10.15 12:11
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. elf Eelisee Si 
-2. knight John Backsword
-3. troll Tee
-4. orc Volg
-5. chimera Woorth
-6. centaur Amadeus
-7. magician Rion
-
-Heroes in the round:
-0. elf Eelisee Si 
-1. knight John Backsword
-2. chimera Woorth
-3. magician Rion
-
-Heroes in the round:
-0. elf Eelisee Si 
-1. magician Rion
-
-The champion is : Eelisee Si 
-
-The new battle begin on: 12.10.15 12:13
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. elf Eelisee Si 
-2. magician Rion
-3. knight John Backsword
-4. chimera Woorth
-5. troll Tee
-6. orc Volg
-7. centaur Amadeus
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. knight John Backsword
-2. chimera Woorth
-3. centaur Amadeus
-
-Heroes in the round:
-0. knight John Backsword
-1. centaur Amadeus
-
-The champion is : Amadeus
-
-The new battle begin on: 12.10.15 12:29
-User chose: troll Tee
-Heroes in the round:
-0. troll Tee
-1. orc Volg
-2. elf Eelisee Si 
-3. centaur Amadeus
-4. dwarf Tirgolf
-5. knight John Backsword
-6. chimera Woorth
-7. magician Rion
-
-Heroes in the round:
-0. orc Volg
-1. centaur Amadeus
-2. dwarf Tirgolf
-3. magician Rion
-
-Heroes in the round:
-0. centaur Amadeus
-1. dwarf Tirgolf
-
-The champion is : Tirgolf
-
-The new battle begin on: 12.10.15 13:58
-User chose: dwarf Tirgolf
-Heroes in the round:
-0. dwarf Tirgolf
-1. magician Rion
-2. chimera Woorth
-3. orc Volg
-4. knight John Backsword
-5. troll Tee
-6. elf Eelisee Si 
-7. centaur Amadeus
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. chimera Woorth
-2. knight John Backsword
-3. centaur Amadeus
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. knight John Backsword
-
-The champion is : John Backsword
-
-The new battle begin on: 12.10.15 13:59
-User chose: orc Volg
-Heroes in the round:
-0. orc Volg
-1. troll Tee
-2. chimera Woorth
-3. magician Rion
-4. elf Eelisee Si 
-5. centaur Amadeus
-6. dwarf Tirgolf
-7. knight John Backsword
-
-Heroes in the round:
-0. orc Volg
-1. chimera Woorth
-2. centaur Amadeus
-3. dwarf Tirgolf
-
-Heroes in the round:
-0. chimera Woorth
-1. centaur Amadeus
-
-The champion is : Amadeus
-
-The new battle begin on: 12.10.15 19:04
-User chose: elf Eelisee Si 
-Heroes in the round:
-0. elf Eelisee Si 
-1. orc Volg
-2. knight John Backsword
-3. centaur Amadeus
-4. troll Tee
-5. chimera Woorth
-6. magician Rion
-7. dwarf Tirgolf
-
-Heroes in the round:
-0. elf Eelisee Si 
-1. knight John Backsword
-2. chimera Woorth
-3. dwarf Tirgolf
-
-Heroes in the round:
-0. elf Eelisee Si 
-1. dwarf Tirgolf
-
-The champion is : Eelisee Si 
-
-The new battle begin on: 12.10.15 19:05
-User chose: elf Eelisee Si 
-Heroes in the round:
-0. elf Eelisee Si 
-1. dwarf Tirgolf
-2. chimera Woorth
-3. orc Volg
-4. troll Tee
-5. magician Rion
-6. knight John Backsword
-7. centaur Amadeus
-
-Heroes in the round:
-0. dwarf Tirgolf
-1. magician Rion
-2. knight John Backsword
-
-Heroes in the round:
-0. magician Rion
-
-
-The new battle begin on: 12.10.15 20:05
+The new battle begin on: 22.10.15 12:11
 User chose: magician Rion
 Heroes in the round:
 0. magician Rion
 1. chimera Woorth
-2. orc Volg
-3. centaur Amadeus
+2. dwarf Tirgolf
+3. troll Tee
+4. orc Volg
+5. centaur Amadeus
+6. knight John Backsword
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. chimera Woorth
+1. dwarf Tirgolf
+2. centaur Amadeus
+3. knight John Backsword
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. knight John Backsword
+
+The champion is : Tirgolf
+
+The new battle begin on: 22.10.15 12:12
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. knight John Backsword
+2. troll Tee
+3. dwarf Tirgolf
+4. chimera Woorth
+5. centaur Amadeus
+6. orc Volg
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. magician Rion
+1. troll Tee
+2. chimera Woorth
+3. orc Volg
+
+Heroes in the round:
+0. troll Tee
+1. orc Volg
+
+The champion is : Volg
+
+The new battle begin on: 22.10.15 12:12
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. magician Rion
+2. knight John Backsword
+3. troll Tee
+4. chimera Woorth
+5. centaur Amadeus
+6. elf Eelisee Si 
+7. orc Volg
+
+Heroes in the round:
+0. magician Rion
+1. knight John Backsword
+2. chimera Woorth
+3. elf Eelisee Si 
+
+Heroes in the round:
+0. knight John Backsword
+1. chimera Woorth
+
+The champion is : John Backsword
+
+The new battle begin on: 22.10.15 12:13
+
+The new battle begin on: 22.10.15 12:14
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. elf Eelisee Si 
+2. chimera Woorth
+3. magician Rion
 4. knight John Backsword
-5. dwarf Tirgolf
+5. troll Tee
+6. dwarf Tirgolf
+7. centaur Amadeus
+
+Heroes in the round:
+0. orc Volg
+1. magician Rion
+2. knight John Backsword
+3. dwarf Tirgolf
+
+Heroes in the round:
+0. magician Rion
+1. dwarf Tirgolf
+
+The champion is : Rion
+
+The new battle begin on: 22.10.15 12:14
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. dwarf Tirgolf
+2. knight John Backsword
+3. chimera Woorth
+4. orc Volg
+5. centaur Amadeus
 6. elf Eelisee Si 
 7. troll Tee
 
 Heroes in the round:
-0. chimera Woorth
-1. orc Volg
-2. dwarf Tirgolf
+0. dwarf Tirgolf
+1. chimera Woorth
+2. orc Volg
 3. elf Eelisee Si 
 
 Heroes in the round:
-0. chimera Woorth
+0. dwarf Tirgolf
+1. orc Volg
+
+The champion is : Volg
+
+The new battle begin on: 22.10.15 12:16
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. knight John Backsword
+2. chimera Woorth
+3. magician Rion
+4. elf Eelisee Si 
+5. centaur Amadeus
+6. troll Tee
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. knight John Backsword
+1. magician Rion
+2. elf Eelisee Si 
+3. troll Tee
+
+Heroes in the round:
+0. magician Rion
 1. elf Eelisee Si 
 
 The champion is : Eelisee Si 
 
-The new battle begin on: 12.10.15 20:11
+The new battle begin on: 22.10.15 12:17
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. orc Volg
+2. knight John Backsword
+3. dwarf Tirgolf
+4. chimera Woorth
+5. centaur Amadeus
+6. troll Tee
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. magician Rion
+1. dwarf Tirgolf
+2. centaur Amadeus
+3. troll Tee
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. centaur Amadeus
+
+All heroes die.
+
+The new battle begin on: 22.10.15 12:18
 User chose: orc Volg
 Heroes in the round:
 0. orc Volg
-1. troll Tee
-2. elf Eelisee Si 
-3. chimera Woorth
-4. centaur Amadeus
-5. knight John Backsword
-6. dwarf Tirgolf
-7. magician Rion
-
-Heroes in the round:
-0. orc Volg
-1. chimera Woorth
-2. knight John Backsword
-3. magician Rion
-
-
-The new battle begin on: 12.10.15 20:12
-User chose: troll Tee
-Heroes in the round:
-0. troll Tee
-1. elf Eelisee Si 
-2. centaur Amadeus
-3. chimera Woorth
-4. knight John Backsword
-5. dwarf Tirgolf
-6. magician Rion
-7. orc Volg
-
-Heroes in the round:
-0. elf Eelisee Si 
 1. centaur Amadeus
 2. knight John Backsword
-3. orc Volg
+3. troll Tee
+4. chimera Woorth
+5. magician Rion
+6. dwarf Tirgolf
+7. elf Eelisee Si 
 
 Heroes in the round:
 0. centaur Amadeus
 1. knight John Backsword
+2. chimera Woorth
+3. elf Eelisee Si 
 
-The champion is : Amadeus
+Heroes in the round:
+0. knight John Backsword
+1. elf Eelisee Si 
 
-The new battle begin on: 12.10.15 20:17
+The champion is : John Backsword
 
-The new battle begin on: 12.10.15 20:17
+The new battle begin on: 22.10.15 12:19
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. elf Eelisee Si 
+2. centaur Amadeus
+3. chimera Woorth
+4. knight John Backsword
+5. troll Tee
+6. orc Volg
+7. magician Rion
 
-The new battle begin on: 12.10.15 20:17
+Heroes in the round:
+0. dwarf Tirgolf
+1. chimera Woorth
+2. knight John Backsword
+3. orc Volg
 
-The new battle begin on: 12.10.15 20:19
+Heroes in the round:
+0. chimera Woorth
+1. knight John Backsword
+
+The champion is : Woorth
+
+The new battle begin on: 22.10.15 12:20
 User chose: orc Volg
 Heroes in the round:
 0. orc Volg
-1. magician Rion
+1. troll Tee
+2. chimera Woorth
+3. magician Rion
+4. centaur Amadeus
+5. knight John Backsword
+6. elf Eelisee Si 
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. orc Volg
+1. chimera Woorth
 2. centaur Amadeus
 3. elf Eelisee Si 
+
+Heroes in the round:
+0. orc Volg
+1. elf Eelisee Si 
+
+The champion is : Volg
+
+The new battle begin on: 22.10.15 12:20
+User chose: troll Tee
+Heroes in the round:
+0. troll Tee
+1. dwarf Tirgolf
+2. elf Eelisee Si 
+3. centaur Amadeus
+4. orc Volg
+5. knight John Backsword
+6. magician Rion
+7. chimera Woorth
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. centaur Amadeus
+2. knight John Backsword
+3. chimera Woorth
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. chimera Woorth
+
+The champion is : Tirgolf
+
+The new battle begin on: 22.10.15 12:20
+User chose: knight John Backsword
+Heroes in the round:
+0. knight John Backsword
+1. magician Rion
+2. centaur Amadeus
+3. chimera Woorth
+4. elf Eelisee Si 
+5. dwarf Tirgolf
+6. orc Volg
+7. troll Tee
+
+Heroes in the round:
+0. knight John Backsword
+1. chimera Woorth
+2. elf Eelisee Si 
+3. orc Volg
+
+Heroes in the round:
+0. chimera Woorth
+
+
+The new battle begin on: 22.10.15 12:31
+User chose: knight John Backsword
+Heroes in the round:
+0. knight John Backsword
+1. chimera Woorth
+2. elf Eelisee Si 
+3. dwarf Tirgolf
+4. orc Volg
+5. magician Rion
+6. troll Tee
+7. centaur Amadeus
+
+Heroes in the round:
+0. chimera Woorth
+1. dwarf Tirgolf
+2. orc Volg
+3. centaur Amadeus
+
+
+The new battle begin on: 22.10.15 12:32
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. orc Volg
+2. chimera Woorth
+3. elf Eelisee Si 
+4. troll Tee
+5. magician Rion
+6. centaur Amadeus
+7. knight John Backsword
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. chimera Woorth
+2. magician Rion
+3. knight John Backsword
+
+
+The new battle begin on: 22.10.15 12:33
+User chose: knight John Backsword
+Heroes in the round:
+0. knight John Backsword
+1. magician Rion
+2. orc Volg
+3. troll Tee
+4. centaur Amadeus
+5. chimera Woorth
+6. elf Eelisee Si 
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. knight John Backsword
+1. orc Volg
+2. chimera Woorth
+3. dwarf Tirgolf
+
+Heroes in the round:
+0. orc Volg
+1. chimera Woorth
+
+The champion is : Woorth
+
+The new battle begin on: 22.10.15 12:34
+User chose: knight John Backsword
+Heroes in the round:
+0. knight John Backsword
+1. dwarf Tirgolf
+2. magician Rion
+3. orc Volg
+4. troll Tee
+5. chimera Woorth
+6. centaur Amadeus
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. knight John Backsword
+1. magician Rion
+2. chimera Woorth
+3. centaur Amadeus
+
+Heroes in the round:
+0. magician Rion
+1. chimera Woorth
+
+All heroes die.
+
+The new battle begin on: 22.10.15 12:35
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. centaur Amadeus
+2. chimera Woorth
+3. knight John Backsword
+4. magician Rion
+5. orc Volg
+6. troll Tee
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. knight John Backsword
+2. orc Volg
+3. elf Eelisee Si 
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. elf Eelisee Si 
+
+The champion is : Eelisee Si 
+
+The new battle begin on: 22.10.15 12:36
+User chose: elf Eelisee Si 
+Heroes in the round:
+0. elf Eelisee Si 
+1. chimera Woorth
+2. orc Volg
+3. magician Rion
+4. troll Tee
+5. dwarf Tirgolf
+6. knight John Backsword
+7. centaur Amadeus
+
+Heroes in the round:
+0. chimera Woorth
+1. orc Volg
+2. troll Tee
+3. centaur Amadeus
+
+Heroes in the round:
+0. chimera Woorth
+1. centaur Amadeus
+
+The champion is : Amadeus
+
+The new battle begin on: 22.10.15 12:40
+User chose: elf Eelisee Si 
+Heroes in the round:
+0. elf Eelisee Si 
+1. orc Volg
+2. magician Rion
+3. chimera Woorth
 4. knight John Backsword
+5. troll Tee
+6. dwarf Tirgolf
+7. centaur Amadeus
+
+Heroes in the round:
+0. elf Eelisee Si 
+1. magician Rion
+2. knight John Backsword
+3. dwarf Tirgolf
+
+Heroes in the round:
+0. elf Eelisee Si 
+1. dwarf Tirgolf
+
+The champion is : Eelisee Si 
+
+The new battle begin on: 22.10.15 12:40
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. elf Eelisee Si 
+2. troll Tee
+3. centaur Amadeus
+4. orc Volg
+5. knight John Backsword
+6. chimera Woorth
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. magician Rion
+1. troll Tee
+2. knight John Backsword
+3. chimera Woorth
+
+Heroes in the round:
+0. troll Tee
+1. chimera Woorth
+
+The champion is : Tee
+
+The new battle begin on: 22.10.15 12:40
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. orc Volg
+2. elf Eelisee Si 
+3. dwarf Tirgolf
+4. knight John Backsword
+5. centaur Amadeus
+6. chimera Woorth
+7. troll Tee
+
+Heroes in the round:
+0. magician Rion
+1. elf Eelisee Si 
+2. knight John Backsword
+3. troll Tee
+
+Heroes in the round:
+0. elf Eelisee Si 
+1. knight John Backsword
+
+The champion is : John Backsword
+
+The new battle begin on: 22.10.15 12:41
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. centaur Amadeus
+2. knight John Backsword
+3. magician Rion
+4. troll Tee
 5. chimera Woorth
 6. dwarf Tirgolf
-7. troll Tee
+7. elf Eelisee Si 
 
 Heroes in the round:
 0. orc Volg
 1. knight John Backsword
 2. troll Tee
+3. dwarf Tirgolf
 
+Heroes in the round:
+0. orc Volg
+1. troll Tee
 
-The new battle begin on: 12.10.15 20:19
+The champion is : Volg
+
+The new battle begin on: 22.10.15 12:41
+User chose: knight John Backsword
+Heroes in the round:
+0. knight John Backsword
+1. troll Tee
+2. magician Rion
+3. dwarf Tirgolf
+4. orc Volg
+5. centaur Amadeus
+6. chimera Woorth
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. knight John Backsword
+1. dwarf Tirgolf
+2. orc Volg
+3. chimera Woorth
+
+Heroes in the round:
+0. knight John Backsword
+1. orc Volg
+
+The champion is : Volg
+
+The new battle begin on: 22.10.15 12:42
 User chose: dwarf Tirgolf
 Heroes in the round:
 0. dwarf Tirgolf
-1. chimera Woorth
-2. orc Volg
-3. troll Tee
-4. elf Eelisee Si 
-5. knight John Backsword
-6. centaur Amadeus
-7. magician Rion
-
-Heroes in the round:
-0. chimera Woorth
 1. troll Tee
 2. knight John Backsword
-3. centaur Amadeus
-
-
-The new battle begin on: 12.10.15 20:21
-
-The new battle begin on: 12.10.15 20:21
-
-The new battle begin on: 12.10.15 20:22
-
-The new battle begin on: 12.10.15 20:24
-
-The new battle begin on: 12.10.15 20:24
-User chose: elf Eelisee Si 
-Heroes in the round:
-0. elf Eelisee Si 
-1. chimera Woorth
-2. knight John Backsword
-3. troll Tee
-4. dwarf Tirgolf
-5. magician Rion
+3. elf Eelisee Si 
+4. magician Rion
+5. chimera Woorth
 6. centaur Amadeus
 7. orc Volg
 
 Heroes in the round:
-0. elf Eelisee Si 
-1. knight John Backsword
-2. dwarf Tirgolf
+0. dwarf Tirgolf
+1. elf Eelisee Si 
+2. chimera Woorth
 3. centaur Amadeus
 
 Heroes in the round:
-0. knight John Backsword
+0. elf Eelisee Si 
 1. centaur Amadeus
 
-The champion is : John Backsword
+The champion is : Amadeus
 
-The new battle begin on: 12.10.15 20:24
+The new battle begin on: 22.10.15 12:43
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. centaur Amadeus
+2. dwarf Tirgolf
+3. elf Eelisee Si 
+4. knight John Backsword
+5. troll Tee
+6. chimera Woorth
+7. orc Volg
+
+Heroes in the round:
+0. centaur Amadeus
+1. elf Eelisee Si 
+2. knight John Backsword
+3. chimera Woorth
+
+Heroes in the round:
+0. elf Eelisee Si 
+1. chimera Woorth
+
+The champion is : Eelisee Si 
+
+The new battle begin on: 22.10.15 13:58
+
+The new battle begin on: 22.10.15 13:59
+
+The new battle begin on: 22.10.15 14:12
+User chose: knight John Backsword
+Heroes in the round:
+0. knight John Backsword
+1. orc Volg
+2. elf Eelisee Si 
+3. chimera Woorth
+4. dwarf Tirgolf
+5. centaur Amadeus
+6. troll Tee
+7. magician Rion
+
+Heroes in the round:
+0. orc Volg
+1. chimera Woorth
+2. centaur Amadeus
+3. magician Rion
+
+Heroes in the round:
+0. orc Volg
+1. magician Rion
+
+The champion is : Volg
+
+The new battle begin on: 22.10.15 14:12
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. troll Tee
+2. centaur Amadeus
+3. elf Eelisee Si 
+4. magician Rion
+5. chimera Woorth
+6. orc Volg
+7. knight John Backsword
+
+Heroes in the round:
+0. troll Tee
+1. elf Eelisee Si 
+2. magician Rion
+3. knight John Backsword
+
+Heroes in the round:
+0. elf Eelisee Si 
+1. magician Rion
+
+The champion is : Eelisee Si 
+
+The new battle begin on: 22.10.15 14:13
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. knight John Backsword
+2. centaur Amadeus
+3. troll Tee
+4. chimera Woorth
+5. magician Rion
+6. elf Eelisee Si 
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. orc Volg
+1. centaur Amadeus
+2. chimera Woorth
+3. elf Eelisee Si 
+
+Heroes in the round:
+0. centaur Amadeus
+1. elf Eelisee Si 
+
+The champion is : Eelisee Si 
+
+The new battle begin on: 22.10.15 14:57
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. centaur Amadeus
+2. elf Eelisee Si 
+3. magician Rion
+4. troll Tee
+5. knight John Backsword
+6. chimera Woorth
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. centaur Amadeus
+1. elf Eelisee Si 
+2. knight John Backsword
+3. dwarf Tirgolf
+
+
+The new battle begin on: 22.10.15 14:58
+User chose: elf Eelisee Si 
+Heroes in the round:
+0. elf Eelisee Si 
+1. knight John Backsword
+2. magician Rion
+3. centaur Amadeus
+4. chimera Woorth
+5. troll Tee
+6. dwarf Tirgolf
+7. orc Volg
+
+Heroes in the round:
+0. knight John Backsword
+1. magician Rion
+2. chimera Woorth
+3. orc Volg
+
+
+The new battle begin on: 22.10.15 14:59
+User chose: elf Eelisee Si 
+Heroes in the round:
+0. elf Eelisee Si 
+1. knight John Backsword
+2. centaur Amadeus
+3. magician Rion
+4. troll Tee
+5. dwarf Tirgolf
+6. chimera Woorth
+7. orc Volg
+
+Heroes in the round:
+0. elf Eelisee Si 
+1. centaur Amadeus
+2. dwarf Tirgolf
+3. orc Volg
+
+
+The new battle begin on: 22.10.15 15:24
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. chimera Woorth
+2. elf Eelisee Si 
+3. centaur Amadeus
+4. dwarf Tirgolf
+5. magician Rion
+6. troll Tee
+7. knight John Backsword
+
+Heroes in the round:
+0. chimera Woorth
+1. elf Eelisee Si 
+2. dwarf Tirgolf
+3. troll Tee
+
+Heroes in the round:
+0. chimera Woorth
+1. dwarf Tirgolf
+
+The champion is : Tirgolf
+
+The new battle begin on: 22.10.15 15:24
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. dwarf Tirgolf
+2. centaur Amadeus
+3. troll Tee
+4. magician Rion
+5. elf Eelisee Si 
+6. chimera Woorth
+7. knight John Backsword
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. troll Tee
+2. magician Rion
+3. knight John Backsword
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. magician Rion
+
+The champion is : Tirgolf
+
+The new battle begin on: 22.10.15 16:17
 User chose: orc Volg
 Heroes in the round:
 0. orc Volg
 1. magician Rion
+2. chimera Woorth
+3. elf Eelisee Si 
+4. centaur Amadeus
+5. troll Tee
+6. knight John Backsword
+7. dwarf Tirgolf
+
+Heroes in the round:
+0. magician Rion
+1. elf Eelisee Si 
 2. centaur Amadeus
+3. knight John Backsword
+
+
+The new battle begin on: 22.10.15 16:18
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. dwarf Tirgolf
+2. knight John Backsword
+3. chimera Woorth
+4. centaur Amadeus
+5. magician Rion
+6. elf Eelisee Si 
+7. troll Tee
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. chimera Woorth
+2. centaur Amadeus
+3. troll Tee
+
+Heroes in the round:
+0. centaur Amadeus
+
+
+The new battle begin on: 22.10.15 16:20
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. elf Eelisee Si 
+2. knight John Backsword
+3. magician Rion
+4. troll Tee
+5. chimera Woorth
+6. dwarf Tirgolf
+7. centaur Amadeus
+
+Heroes in the round:
+0. orc Volg
+1. magician Rion
+2. chimera Woorth
+3. centaur Amadeus
+
+Heroes in the round:
+0. magician Rion
+1. chimera Woorth
+
+The champion is : Woorth
+
+The new battle begin on: 22.10.15 16:22
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. knight John Backsword
+2. elf Eelisee Si 
+3. troll Tee
+4. centaur Amadeus
+5. chimera Woorth
+6. orc Volg
+7. magician Rion
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. troll Tee
+2. centaur Amadeus
+3. orc Volg
+
+
+The new battle begin on: 22.10.15 16:22
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. troll Tee
+2. knight John Backsword
 3. elf Eelisee Si 
 4. dwarf Tirgolf
+5. centaur Amadeus
+6. magician Rion
+7. chimera Woorth
+
+Heroes in the round:
+0. troll Tee
+1. knight John Backsword
+2. dwarf Tirgolf
+3. chimera Woorth
+
+
+The new battle begin on: 22.10.15 16:23
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. centaur Amadeus
+2. elf Eelisee Si 
+3. dwarf Tirgolf
+4. troll Tee
+5. magician Rion
+6. chimera Woorth
+7. knight John Backsword
+
+Heroes in the round:
+0. centaur Amadeus
+1. dwarf Tirgolf
+2. magician Rion
+3. knight John Backsword
+
+
+The new battle begin on: 22.10.15 16:24
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. troll Tee
+2. dwarf Tirgolf
+3. orc Volg
+4. elf Eelisee Si 
 5. chimera Woorth
+6. centaur Amadeus
+7. knight John Backsword
+
+Heroes in the round:
+0. magician Rion
+1. dwarf Tirgolf
+2. elf Eelisee Si 
+3. knight John Backsword
+
+
+The new battle begin on: 22.10.15 16:24
+User chose: orc Volg
+Heroes in the round:
+0. orc Volg
+1. chimera Woorth
+2. elf Eelisee Si 
+3. centaur Amadeus
+4. dwarf Tirgolf
+5. magician Rion
 6. knight John Backsword
 7. troll Tee
 
 Heroes in the round:
 0. orc Volg
-1. elf Eelisee Si 
+1. centaur Amadeus
 2. dwarf Tirgolf
+3. knight John Backsword
 
+
+The new battle begin on: 22.10.15 16:24
+User chose: magician Rion
+Heroes in the round:
+0. magician Rion
+1. orc Volg
+2. dwarf Tirgolf
+3. chimera Woorth
+4. troll Tee
+5. elf Eelisee Si 
+6. knight John Backsword
+7. centaur Amadeus
+
+Heroes in the round:
+0. magician Rion
+1. dwarf Tirgolf
+2. elf Eelisee Si 
+3. centaur Amadeus
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. elf Eelisee Si 
+
+
+The new battle begin on: 22.10.15 16:25
+
+The new battle begin on: 22.10.15 16:27
+User chose: elf Eelisee Si 
 Heroes in the round:
 0. elf Eelisee Si 
+1. dwarf Tirgolf
+2. troll Tee
+3. chimera Woorth
+4. centaur Amadeus
+5. orc Volg
+6. magician Rion
+7. knight John Backsword
 
-
-The new battle begin on: 12.10.15 20:25
-User chose: orc Volg
 Heroes in the round:
-0. orc Volg
+0. dwarf Tirgolf
 1. troll Tee
-2. centaur Amadeus
+2. orc Volg
 3. magician Rion
-4. chimera Woorth
-5. knight John Backsword
-6. dwarf Tirgolf
-7. elf Eelisee Si 
 
 Heroes in the round:
 0. troll Tee
 1. magician Rion
-2. chimera Woorth
-3. elf Eelisee Si 
+
+The champion is : Tee
+
+The new battle begin on: 22.10.15 16:28
+User chose: dwarf Tirgolf
+Heroes in the round:
+0. dwarf Tirgolf
+1. chimera Woorth
+2. troll Tee
+3. orc Volg
+4. knight John Backsword
+5. centaur Amadeus
+6. magician Rion
+7. elf Eelisee Si 
+
+Heroes in the round:
+0. dwarf Tirgolf
+1. troll Tee
+2. centaur Amadeus
+3. magician Rion
 
 Heroes in the round:
 0. troll Tee
-1. chimera Woorth
+1. magician Rion
 
 All heroes die.

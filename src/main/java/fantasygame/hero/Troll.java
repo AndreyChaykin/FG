@@ -19,20 +19,26 @@ public class Troll extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("I ama gonna eating you after when i ama killing you!" +
                 " U am understanding me what a saying to you!");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println("Whose gonna fight weez me more?!");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is using superskills.");
+        }
         int lifeOpponent = opponent.getActualLife();
         PowerfulStrike strike = new PowerfulStrike();
 
@@ -40,13 +46,17 @@ public class Troll extends Warrior {
 
         int number = new Random().nextInt(3);
         if (number == 2) {
-            LOG.debug("Change actual life of opponent.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Change actual life of opponent " + opponent.getActualLife() + " - " + strike.getDamage());
+            }
             lifeOpponent -= strike.getDamage();
             strike.printAction();
             System.out.println("Troll hit " + strike.getDamage() + " damage!");
             return lifeOpponent;
         } else {
-            LOG.debug("Troll hit 0 damage.");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Troll miss.");
+            }
             System.out.println("Troll miss!");
             System.out.println("Troll hit " + 0 + " damage!");
             return lifeOpponent;

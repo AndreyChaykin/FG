@@ -8,12 +8,16 @@ public class DionysusMadness implements Skill {
     private static final Logger LOG = Logger.getLogger(getCurrentClassName());
 
     public int getDamage() {
-        LOG.debug("Return int SKILL.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Return int SKILL.");
+        }
         return SKILL;
     }
 
     public void printAction() {
-        LOG.debug("Print skill action");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Print skill action");
+        }
         System.out.println("Thunder is heard everywhere! Lightning fly overhead! The enemy looses his mind");
     }
 

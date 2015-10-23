@@ -8,12 +8,16 @@ public class Dragon implements Skill {
     private static final Logger LOG = Logger.getLogger(getCurrentClassName());
 
     public int getDamage() {
-        LOG.debug("Return int SKILL.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Return int SKILL.");
+        }
         return SKILL;
     }
 
     public void printAction() {
-        LOG.debug("Print skill action");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Print skill action");
+        }
         System.out.println("**Gold dragon striking magic flame around elf!");
     }
 

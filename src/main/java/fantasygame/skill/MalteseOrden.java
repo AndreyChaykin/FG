@@ -8,7 +8,9 @@ public class MalteseOrden implements Skill {
     private static final Logger LOG = Logger.getLogger(getCurrentClassName());
 
     public void printAction() {
-        LOG.debug("Print skill action");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Print skill action");
+        }
         System.out.println("Vivant omnes virgines\n" +
                 "Graciles, formosae!\n" +
                 "Vivant et mulieres\n" +
@@ -18,7 +20,9 @@ public class MalteseOrden implements Skill {
     }
 
     public int getDamage() {
-        LOG.debug("Return int SKILL.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Return int SKILL.");
+        }
         return SKILL;
     }
 

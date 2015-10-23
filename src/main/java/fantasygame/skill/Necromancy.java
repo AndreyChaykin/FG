@@ -8,12 +8,16 @@ public class Necromancy implements Skill {
     private static final Logger LOG = Logger.getLogger(getCurrentClassName());
 
     public void printAction() {
-        LOG.debug("Print skill action");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Print skill action");
+        }
         System.out.println("**Zombies is coming out from the grave and destroy everything on their way!**");
     }
 
     public int getDamage() {
-        LOG.debug("Return int SKILL.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Return int SKILL.");
+        }
         return SKILL;
     }
 

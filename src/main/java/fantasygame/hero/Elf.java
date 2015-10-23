@@ -17,25 +17,34 @@ public class Elf extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("Sir, " + getName() + " wish you powerful hand and wise and far-sighted mind!");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println(this.getClass().getSimpleName() + " " + getName() + " " + SPEECH + "sir!");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is using superskills.");
+        }
         Dragon dragon = new Dragon();
         System.out.println("- Tirion, come and burnout " + opponent.getClass().getSimpleName().toLowerCase() + "!");
         dragon.printAction();
-        LOG.debug("Change actual life of opponent.");
         System.out.println("Elf`s dragon hit " + dragon.getDamage() + " damage.");
-        int lifeOpponent = opponent.getActualLife() - dragon.getDamage();
-        return lifeOpponent;
+        int lifepoints = opponent.getActualLife() - dragon.getDamage();
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Change actual life of opponent: " + opponent.getActualLife()
+                    + " - " + dragon.getDamage() + " = " + lifepoints);
+        }
+        return lifepoints;
     }
 }

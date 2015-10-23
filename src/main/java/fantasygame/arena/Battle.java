@@ -3,23 +3,30 @@ package fantasygame.arena;
 import fantasygame.hero.Warrior;
 import org.apache.log4j.Logger;
 
+import static fantasygame.ClassNameUtil.getCurrentClassName;
+
 
 public class Battle {
 
-   private static final Logger LOG = Logger.getLogger(fantasygame.arena.Battle.class);
+   private static final Logger LOG = Logger.getLogger(getCurrentClassName());
 
     public Warrior fight(Warrior firstWarrior, Warrior secondWarrior) {
-        LOG.info("fight begin: " + firstWarrior.getName() + " & " + secondWarrior.getName());
+
+        LOG.info("Fight begin: " + firstWarrior.getClass().getSimpleName() + " " + firstWarrior.getName() + " & "
+                + secondWarrior.getClass().getSimpleName() + " " + secondWarrior.getName() + ".");
+
         if (firstWarrior == null){
-            LOG.info("firstWarrior is null, return secondWarrior " + secondWarrior.getName());
+            LOG.info("FirstWarrior " + firstWarrior.getName() + " is null, return secondWarrior " + secondWarrior.getName());
             return secondWarrior;
         } else if (secondWarrior == null){
-            LOG.info("secondWarrior is null, return firstWarrior " + firstWarrior.getName());
+            LOG.info("secondWarrior " + secondWarrior.getName() + " is null, return firstWarrior " + firstWarrior.getName());
             return firstWarrior;
         }
 
         while (firstWarrior.getActualLife() > 0 && secondWarrior.getActualLife() > 0) {
-            LOG.debug("Kick opponent while both life < 0 ");
+            if(LOG.isDebugEnabled()) {
+                LOG.debug("Kick opponent while both life < 0 ");
+            }
             firstWarrior.setActualLife(secondWarrior.kick(firstWarrior));
             secondWarrior.setActualLife(firstWarrior.kick(secondWarrior));
 
@@ -30,14 +37,16 @@ public class Battle {
             System.out.println();
         }
 
-        if (firstWarrior.getActualLife() > 0) {
-            LOG.info("FirstWarrior win in the battle: " + firstWarrior.getName());
+        if (firstWarrior.getActualLife() > 0 && secondWarrior.getActualLife() <= 0) {
+            LOG.info("Warrior " + firstWarrior.getClass().getSimpleName() + " " + firstWarrior.getName() +
+                    " win in this battle. Return winner.");
             return firstWarrior;
         } else if (secondWarrior.getActualLife() > 0) {
-            LOG.info("secondWarrior win in the battle: " + secondWarrior.getName());
+            LOG.info("Warrior " + secondWarrior.getClass().getSimpleName() + " " + secondWarrior.getName() +
+                    " win in this battle. Return winner.");
             return secondWarrior;
         } else {
-            LOG.info("No winners. Return null");
+            LOG.info("No winner in this battle. Return null");
             return null;
         }
     }

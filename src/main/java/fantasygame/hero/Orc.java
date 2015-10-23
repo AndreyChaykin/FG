@@ -17,25 +17,36 @@ public class Orc extends Warrior {
 
     @Override
     public void salutationSpeech() {
-        LOG.debug("Saying salutation speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying salutation speech");
+        }
         System.out.println("Remember, when i`ll win = you set me free.");
     }
 
     @Override
     public void getTriumphSpeech() {
-        LOG.debug("Saying triumph speech");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is saying triumph speech");
+        }
         System.out.println("It was easy! Next time i`ll come with my army, human!");
     }
 
     @Override
     public int superSkill(Warrior opponent) {
-        LOG.debug("Using superskills.");
+        if(LOG.isDebugEnabled()) {
+            LOG.debug(getClass().getSimpleName() + " " + getName() + " is using superskills.");
+        }
         System.out.println("- My bound up varg, kill my enemy!");
+
         Varg wolf = new Varg();
-        int lifeOpponent = opponent.getActualLife() - wolf.getDamage();
         wolf.printAction();
-        LOG.debug("Change actual life of opponent.");
+
+        int lifepoints = opponent.getActualLife() - wolf.getDamage();
         System.out.println("Wolf hit " + wolf.getDamage() + " damage!");
-        return lifeOpponent;
+        if(LOG.isDebugEnabled()) {
+            LOG.debug("Change actual life of opponent: " + opponent.getActualLife()
+                    + " - " + wolf.getDamage() + " = " + lifepoints);
+        }
+        return lifepoints;
     }
 }
